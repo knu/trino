@@ -1339,7 +1339,7 @@ public class TestTrinoDatabaseMetaData
                         .collect(toImmutableList()),
                 new MetadataCallsCount()
                         .withListSchemasCount(3)
-                        .withListTablesCount(8)
+                        .withListTablesCount(6)
                         .withGetTableHandleCount(2)
                         .withGetColumnsCount(2));
 
